@@ -1,0 +1,11 @@
+venv/
+env/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+models/
+*.faiss
+*.npy
+.env
+.cache/

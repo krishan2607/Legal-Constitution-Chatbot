@@ -1,0 +1,21 @@
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Models and Vector Databases
+# (This ignores the folder where rag_engine.py saves the FAISS index)
+models/
+*.faiss
+*.npy
+
+# Environment variables (Never upload API keys!)
+.env
+
+# HuggingFace / Local Caches
+.cache/
